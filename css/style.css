@@ -25,6 +25,15 @@ html, body{
 	padding: 15px;
 }
 
+.logo{
+	text-align: center;
+	display: block;
+}
+.logo > img{
+	width: 75px;
+	height: 75px;
+}
+
 .navbar-fixed-top-custom{
 	position: absolute;
 	top:0;
@@ -45,13 +54,22 @@ html, body{
 	padding-bottom: 40px;
 }
 
-a{
+a{	
+	cursor: pointer;
+	text-decoration: none !important;
+}
+a:hover, a:focus{	
+	cursor: pointer;
 	text-decoration: none !important;
 }
 
 .container-main-page{
 	background-color: #fafafa;
 	margin-top: 50px !important;
+}
+.container-main-page-primary{
+	background-color: #fafafa;
+	margin-top: 105px !important;
 }
 
 .btn-primary-custom{
@@ -179,6 +197,7 @@ a{
 	border: 1px solid #4CAF50 !important;
 	background-color: #4CAF50;
 	opacity: 0.8;
+	cursor: pointer;
 
 }
 .thumbnail-custom-lapor:hover,
@@ -292,7 +311,7 @@ a{
 
 .profile{
 	width: 100%;
-	margin-top: 80px;
+	margin-top: 80 px;
 	/*background-color: #fff;*/
 	position: absolute;
 	z-index: 1;
@@ -316,7 +335,7 @@ a{
   width: 30px;
   height: 30px;
   position: absolute;
-  margin: 0px auto;
+  margin: 23px auto;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -557,7 +576,7 @@ a{
 	.title-page h3{
 		margin-top: -40px;
 		margin-bottom: 15px;
-		margin-left: 50px;
+		/*margin-left: 50px;*/
 	}
 
 	.long-title-page h3{
