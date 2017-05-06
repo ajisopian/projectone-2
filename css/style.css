@@ -29,9 +29,19 @@ html, body{
 	text-align: center;
 	display: block;
 }
+
+.logo-login{
+	text-align: center;
+	display: block;
+	margin-bottom: 30px;
+}
 .logo > img{
 	width: 75px;
 	height: 75px;
+}
+.logo-login > img{
+	width: 100px;
+	height: 100px;
 }
 
 .navbar-fixed-top-custom{
@@ -114,6 +124,21 @@ a:hover, a:focus{
 	border-bottom: 0px;
 }
 
+.lupa-password{
+	float: right;
+	cursor: pointer;
+}
+
+.link-daftar{
+	margin: 30px auto 15px;
+	text-align: center;
+}
+
+.panel-title{
+	font-size: 20px;
+	text-align: center;
+}
+
 
 
 /* ====== Header ======*/
@@ -184,7 +209,7 @@ a:hover, a:focus{
 	padding: 15px 15px;
 }
 
-.thumbnail-custom, .thumbnail-custom-lapor, .thumbnail-posting{
+.thumbnail-custom, .thumbnail-custom-lapor, .thumbnail-posting, .col-login{
 
 	-webkit-box-shadow: 0px 4px 12px -1px rgba(186,186,186,1);
 	-moz-box-shadow: 0px 4px 12px -1px rgba(186,186,186,1);
@@ -311,7 +336,7 @@ a:hover, a:focus{
 
 .profile{
 	width: 100%;
-	margin-top: 80 px;
+	margin-top: 80px;
 	/*background-color: #fff;*/
 	position: absolute;
 	z-index: 1;
